@@ -15,3 +15,13 @@ h1 {
   line-height: 70px;
   color: #1bff07;
 }
+
+h2 {
+  font-size: 55px;
+  line-height: 72px;
+}
+
+h3 {
+  font-size: 35px;
+  line-height: 46px;
+}
