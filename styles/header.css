@@ -1,0 +1,46 @@
+.body_fixed {
+  overflow: hidden;
+}
+
+header {
+  margin-bottom: 278px;
+  padding-top: 33px;
+  height: 23px;
+}
+
+.header-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo__link {
+  position: relative;
+  width: 109px;
+  height: 55px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.logo__title {
+  position: absolute;
+  top: 8px;
+  left: 68px;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 55px;
+  letter-spacing: -0.11em;
+}
+
+.nav__links {
+  display: flex;
+  gap: 50px;
+}
+
+.nav__link {
+  display: block;
+  line-height: 23px;
+  height: 23px;
+  font-size: 18px;
+}
