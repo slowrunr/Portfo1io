@@ -8,8 +8,21 @@ header {
   height: 23px;
 }
 
+.header__image {
+  position: relative;
+  z-index: -10;
+  top: -115px;
+  left: 0;
+  background-image: url(../images/main__image.png);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 70%;
+}
+
 .header-wrapper {
   position: relative;
+  z-index: 10;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,6 +30,7 @@ header {
 
 .logo__link {
   position: relative;
+  z-index: 2;
   width: 109px;
   height: 55px;
   object-fit: cover;
@@ -25,6 +39,7 @@ header {
 
 .logo__title {
   position: absolute;
+  z-index: 20;
   top: 8px;
   left: 68px;
   font-weight: 700;
