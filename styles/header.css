@@ -13,11 +13,10 @@ header {
   z-index: -10;
   top: -115px;
   left: 0;
-  background-image: url(../images/main__image.png);
+  background-image: url(../images/promo_photo.jpg);
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 50% 70%;
 }
 
 .header-wrapper {
@@ -30,7 +29,7 @@ header {
 
 .logo__link {
   position: relative;
-  z-index: 2;
+  z-index: 10;
   width: 109px;
   height: 55px;
   object-fit: cover;

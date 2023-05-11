@@ -1,9 +1,14 @@
-.description {
+.desc__wrapper {
   position: absolute;
-  top: 758px;
-  left: 751px;
-  width: 489px;
-  height: 323px;
+  top: 334px;
+  width: 430px;
+  height: 103px;
+}
+
+.description {
+  font-size: 20px;
+  line-height: 26px;
+  color: #ca5c1d;
 }
 
 .description__highlight {
@@ -11,10 +16,14 @@
   color: #ca5c1d;
 }
 
-.intro {
+.intro__wrapper {
   position: absolute;
-  top: 421px;
-  left: 0;
+  top: 466px;
   width: 919px;
-  height: 410px;
+  height: 205px;
+}
+
+.intro {
+  font-size: 80px;
+  line-height: 70px;
 }
