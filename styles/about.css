@@ -1,6 +1,5 @@
 .desc__wrapper {
-  position: absolute;
-  top: 334px;
+  margin-bottom: 100px;
   width: 430px;
   height: 103px;
 }
@@ -8,17 +7,16 @@
 .description {
   font-size: 20px;
   line-height: 26px;
-  color: #ca5c1d;
+  color: #fff;
 }
 
 .description__highlight {
   font-size: 42px;
-  color: #ca5c1d;
+  color: #fa9931;
 }
 
 .intro__wrapper {
-  position: absolute;
-  top: 466px;
+  margin-bottom: 100px;
   width: 919px;
   height: 205px;
 }
@@ -26,4 +24,5 @@
 .intro {
   font-size: 80px;
   line-height: 70px;
+  color: #fa9931;
 }

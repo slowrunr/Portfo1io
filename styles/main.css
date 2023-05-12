@@ -8,6 +8,10 @@ body {
   font-weight: 400;
 }
 
+section {
+  margin-bottom: 150px;
+}
+
 .container {
   margin: 0 auto;
   width: 1150px;
@@ -23,6 +27,7 @@ a {
 h2 {
   font-size: 55px;
   line-height: 72px;
+  color: #fff;
 }
 
 p {
