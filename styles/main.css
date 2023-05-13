@@ -4,7 +4,7 @@ html {
 
 body {
   font-family: "IBM Plex Mono", monospace;
-  background: #968484;
+  background-color: rgba(0, 0, 0, 1);
   font-weight: 400;
 }
 
@@ -19,30 +19,22 @@ section {
 
 h1,
 h2,
+h3,
 p,
 a {
   letter-spacing: -0.03em;
+  color: #fff;
 }
 
 h2 {
   font-size: 55px;
   line-height: 72px;
-  color: #fff;
 }
 
-p {
-  font-size: 40px;
-  line-height: 40px;
-}
-
-p,
 a {
+  display: block;
   text-decoration: none;
-  color: #fff;
-}
-
-h2 {
-  margin-bottom: 30px;
-  font-size: 18px;
-  line-height: 25px;
+  color: black;
+  cursor: pointer;
+  text-align: center;
 }
