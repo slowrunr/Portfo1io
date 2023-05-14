@@ -1,8 +1,9 @@
 .projects__list {
-  margin-bottom: 80px;
+  margin-bottom: 70px;
 }
 
 .projects h2 {
+  margin-left: -2px;
   margin-bottom: 40px;
 }
 
@@ -24,9 +25,9 @@
 
 .project__link {
   position: absolute;
-  top: 50px;
+  top: 43px;
   left: 45px;
-  padding: 10px 20px;
+  padding: 10px 10px;
   font-size: 20px;
   line-height: 27px;
   background: #fa9931;
@@ -34,10 +35,14 @@
   color: #000;
 }
 
+.first {
+  top: 44px;
+}
+
 .project__title {
   position: absolute;
   left: 50px;
-  bottom: 94px;
+  bottom: 103px;
   font-size: 35px;
   line-height: 46px;
 }
@@ -45,7 +50,7 @@
 .project__subtitle {
   position: absolute;
   left: 50px;
-  bottom: 50px;
+  bottom: 57px;
   font-size: 30px;
   line-height: 39px;
 }

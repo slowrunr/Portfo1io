@@ -1,6 +1,9 @@
+.about {
+  margin-bottom: 240px;
+}
+
 .desc__wrapper {
-  margin-top: 334px;
-  margin-bottom: 29px;
+  margin-top: 288px;
   width: 430px;
 }
 
@@ -16,8 +19,7 @@
 }
 
 .intro__wrapper {
-  margin-bottom: 94px;
-  padding-left: 6px;
+  margin-left: -6px;
   width: 919px;
   height: 205px;
 }

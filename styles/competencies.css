@@ -1,3 +1,71 @@
 .competencies h2 {
-  margin-bottom: 80px;
+  margin-bottom: 139px;
+}
+
+.competencies__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.competency {
+  position: relative;
+  margin-bottom: 99px;
+  width: calc(50% - 7px);
+}
+
+.competency:first-child {
+  margin-bottom: 166px;
+}
+
+.competency:before {
+  content: "";
+  position: absolute;
+  top: -60px;
+  width: 45px;
+  height: 44px;
+  background-repeat: no-repeat;
+  background-color: #fa9931;
+  border-radius: 10px;
+  background-position: center;
+}
+
+.competency:first-child:before {
+  background-image: url("../images/html_icon.png");
+  background-size: 24px 22px;
+}
+
+.competency:last-child:before {
+  background-image: url("../images/network_icon.png");
+  background-size: 25px 27px;
+}
+
+.competency:nth-last-child(2):before {
+  background-image: url("../images/phone_icon.png");
+  background-size: 16px 25px;
+}
+
+.competency:nth-last-child(3):before {
+  background-image: url("../images/js_icon.png");
+  background-size: 24px 22px;
+}
+
+.competency:nth-last-child(-n + 2) {
+  margin-bottom: 0;
+}
+
+.competency__title {
+  margin-bottom: 15px;
+  font-size: 35px;
+  line-height: 46px;
+  color: #fa9931;
+}
+
+.down {
+  margin-bottom: 60px;
+}
+
+.competency__desc {
+  font-size: 22px;
+  line-height: 29px;
 }
