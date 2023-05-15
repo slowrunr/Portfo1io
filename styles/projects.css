@@ -63,3 +63,8 @@
   background: #fa9931;
   border-radius: 10px;
 }
+
+.all__projects:hover {
+  background: #fff;
+  color: #fa9931;
+}

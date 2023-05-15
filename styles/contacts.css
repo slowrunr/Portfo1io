@@ -1,0 +1,42 @@
+.contacts {
+  margin-bottom: 10px;
+  background-color: #191c19;
+}
+
+.contacts__wrapper {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.form__instruction {
+  margin: 100px 0 60px;
+  width: 520px;
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.send__order {
+  width: 450px;
+  font-size: 22px;
+  line-height: 70px;
+  background: #fa9931;
+  border-radius: 10px;
+  color: #000;
+}
+
+.send__order:hover {
+  background: #fff;
+  color: #fa9931;
+}
+
+.contacts__back-image {
+  z-index: 100;
+  position: absolute;
+  left: 10px;
+  background-image: url(../images/frontender_at_work.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 796px 749px;
+}

@@ -173,47 +173,73 @@
         </div>
         </ul>
       </section>
-      <!--<section class="services">
-        <h2>Помогаю реализовать широкий спектр задач</h2>
-        <ul>
-            <li>
-              <img src="" alt="" />
-              <h2>
-                Разработка сайта под ключ
-              </h2>
-              <p>
-                Это создание дизайн веб-сайтов, созданный для удобства пользователя и решения бизнес-задач
-                Сайты должны быть понятными и удобными, ведь чем понятнее сайт, тем быстрее пользователь совершит целевое действие
-              </p>
+      <section class="services">
+        <div class="container">
+          <h2 class="services__title">Помогаю реализовать широкий спектр задач</h2>
+          <ul class="services__list">
+            <li class="service__item">
+              <img 
+                class="service__image" 
+                src="images/website-development.jpg" 
+                alt="/" 
+              />
+              <div class="service__desc-wrapper">
+                <h2 class="service__name">Разработка сайта под ключ</h2>
+                <p class="service__desc">Это создание дизайна веб-сайтов для удобства пользователя и решения бизнес-задач.<br> Сайты должны быть понятными и удобными. Чем понятнее сайт, тем быстрее пользователь совершит целевое действие.</p>
+              </div>
             </li>
             <li>
-                <img src="" alt="" />
-                <h2>
-                    Верстка сайтов
-                </h2>
-                <p>
-                    Это процесс создания HTML-документов и применения к ним стилей на CSS. Фронтенд разработчик может помочь создать привлекательный и удобный интерфейс для вашего сайта
-                </p>
-              </li>
-              <li>
-                <img src="" alt="" />
-                <h2>
-                    Разработка мобильного интерфейса
-                </h2>
-                <p>
-                    Это процесс создания интерактивных элементов на странице с помощью JavaScript. Фронтенд разработчик может помочь создать динамический и удобный пользовательский интерфейс для вашего сайта или приложения.
-                </p>
-              </li>
+              <img
+                class="service__image"
+                src="images/website-layout.jpg" 
+                alt="/"
+              />
+              <div class="service__desc-wrapper">
+                <h2 class="service__name">Вёрстка сайтов</h2>
+                <p class="service__desc">Это процесс создания HTML-документов и применения к ним стилей CSS. Frontend-разработчик может помочь создать привлекательный и удобный интерфейс для вашего сайта.</p>
+              </div>
+            </li>
+            <li>
+              <img
+                class="service__image"
+                src="images/mob-interface-development.jpg" 
+                alt="/"
+              />
+              <div class="service__desc-wrapper">
+                <h2 class="service__name">Разработка мобильного интерфейса</h2>
+                <p class="service__desc">Это процесс создания интерактивных элементов на странице с помощью JavaScript. Frontend-разработчик может помочь создать динамический и удобный пользовательский интерфейс для вашего сайта или приложения.</p>
+              </div>
+            </li>
+          </ul>      
+        </div>
       </section>
       <section class="contacts">
-        <img src="/" alt="/">
-        <h3></h3>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
+        <div class="contacts__wrapper">
+          <div class="container">
+            <p class="form__instruction">Для связи со мной заполните простую форму</p>
+            <form class="order__form">
+              <input
+                class="input" 
+                type="text"
+                name="name"
+                placeholder="Имя Фамилия" 
+              />
+              <input
+                class="input"
+                type="email"
+                name="email"
+                placeholder="example@mail.com"
+              />
+            </form>
+            <a href="email:mungaslov.nft@gmail.com" class="send__order"
+             >Отправить
+            </a>
+            <div class="contacts__back-image"></div>
+          </div>
+        </div>
       </section>
     </main>
-    <footer>
+    <!--<footer>
         <section class="copyright">
         <p>Портфолио фронтенд-разработчика Саши Орлова</p>
         <h4>Все права защищены. 2023</h4>

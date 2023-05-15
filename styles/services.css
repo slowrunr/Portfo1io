@@ -1,0 +1,39 @@
+.services__title {
+  margin-bottom: 80px;
+  width: 403px;
+  font-size: 35px;
+  line-height: 46px;
+}
+
+.service__image {
+  margin-bottom: 0;
+  height: 200px;
+  border-radius: 30px;
+}
+
+.service__desc-wrapper {
+  margin-bottom: 40px;
+  height: 283px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 70px;
+  background-color: #191c19;
+}
+
+.service__name {
+  padding: 40px 0 121px 40px;
+  width: 481px;
+  font-size: 55px;
+  line-height: 61px;
+  color: #fa9931;
+}
+
+.service__desc {
+  padding: 35px 45px 64px 0;
+  width: 569px;
+  height: 174px;
+  font-size: 22px;
+  line-height: 29px;
+  color: #fff;
+}

@@ -2,14 +2,15 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+body,
+.input {
   font-family: "IBM Plex Mono", monospace;
   background-color: rgba(0, 0, 0, 1);
   font-weight: 400;
 }
 
 section {
-  margin-bottom: 150px;
+  margin-bottom: 146px;
 }
 
 .container {

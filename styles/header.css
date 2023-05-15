@@ -3,22 +3,23 @@
 }
 
 header {
-  margin-bottom: 278px;
+  margin-bottom: 295px;
   height: 23px;
 }
 
-/*.header__image {
+.header__image {
   position: relative;
   z-index: -10;
   top: -115px;
   left: 0;
   background-image: url(../images/promo_photo.jpg);
-  height: 100vh;
+  height: 109vh;
   background-size: cover;
   background-repeat: no-repeat;
-}*/
+}
 
 .header-wrapper {
+  margin-top: -5px;
   position: relative;
   z-index: 10;
   display: flex;
@@ -27,14 +28,16 @@ header {
 }
 
 .logo__link {
-  height: 55px;
+  margin-right: 379px;
+  padding: 2px 12px 2px 9px;
+  width: 377px;
   font-weight: 700;
   font-size: 42px;
   line-height: 55px;
   letter-spacing: -0.11em;
   color: #fa9931;
   background-color: aliceblue;
-  border-radius: 10px;
+  border-radius: 100px;
   border: 2px solid aliceblue;
 }
 
