@@ -27,24 +27,15 @@ header {
 }
 
 .logo__link {
-  position: relative;
-  z-index: 10;
-  width: 109px;
   height: 55px;
-  object-fit: cover;
-  object-position: center;
-}
-
-.logo__title {
-  position: absolute;
-  z-index: 20;
-  top: 8px;
-  left: 26px;
   font-weight: 700;
   font-size: 42px;
   line-height: 55px;
   letter-spacing: -0.11em;
   color: #fa9931;
+  background-color: aliceblue;
+  border-radius: 10px;
+  border: 2px solid aliceblue;
 }
 
 .nav__links {
