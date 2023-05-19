@@ -35,7 +35,7 @@
   color: #000;
 }
 
-.first {
+.projects__list li:first-child a {
   top: 44px;
 }
 

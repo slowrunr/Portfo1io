@@ -14,8 +14,13 @@
   background-repeat: no-repeat;
 }
 
+/*this code helps to work with implemented divs inside ul-list*/
 .services__list li:first-child .service__image {
   background-image: url(../images/website-development.jpg);
+}
+
+.services__list li:nth-last-child(2) .service__image {
+  background-image: url(../images/website-layout.jpg);
 }
 
 .services__list li:last-child .service__image {
