@@ -9,6 +9,17 @@
   margin-bottom: 0;
   height: 200px;
   border-radius: 30px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.services__list li:first-child .service__image {
+  background-image: url(../images/website-development.jpg);
+}
+
+.services__list li:last-child .service__image {
+  background-image: url(../images/mob-interface-development.jpg);
 }
 
 .service__desc-wrapper {
