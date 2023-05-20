@@ -1,0 +1,31 @@
+.pdpp {
+  background-color: #121212;
+}
+
+.pdpp__title {
+  padding: 25px;
+  font-size: 50px;
+  line-height: 60px;
+  color: #fa9931;
+}
+
+.pdpp__text {
+  padding: 20px;
+  font-size: 22px;
+  line-height: 30px;
+  opacity: 0.4;
+}
+
+.back__btn {
+  width: 100%;
+  padding: 56px 85px;
+  font-size: 30px;
+  line-height: 39px;
+  background: #fa9931;
+  border-radius: 10px;
+}
+
+.back__btn:hover {
+  background: #fff;
+  color: #fa9931;
+}

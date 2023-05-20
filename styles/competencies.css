@@ -54,15 +54,15 @@
   margin-bottom: 0;
 }
 
+.competencies__list li:nth-last-child(3) h3 {
+  margin-bottom: 60px;
+}
+
 .competency__title {
   margin-bottom: 15px;
   font-size: 35px;
   line-height: 46px;
   color: #fa9931;
-}
-
-.down {
-  margin-bottom: 60px;
 }
 
 .competency__desc {

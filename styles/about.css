@@ -1,5 +1,5 @@
 .about {
-  margin-bottom: 240px;
+  margin-bottom: 256px;
 }
 
 .anchor {
@@ -9,8 +9,8 @@
 
 .desc__wrapper {
   position: absolute;
-  top: 219px;
-  left: 307px;
+  top: 260px;
+  left: 354px;
   width: 430px;
 }
 
@@ -37,14 +37,14 @@
 
 .intro:first-child {
   position: absolute;
-  top: -183px;
-  left: 140px;
+  top: -152px;
+  left: 153px;
   width: 412px;
 }
 
 .intro:last-child {
   position: absolute;
-  top: 6px;
-  left: 232px;
+  top: 48px;
+  left: 240px;
   width: 914px;
 }
