@@ -1,19 +1,17 @@
 .intro__title,
 .intro__subtitle {
-  font-size: 80px;
+  font-size: 70px;
   line-height: 75px;
 }
 
 .intro__title {
   position: absolute;
-  top: 200px;
-  left: 460px;
+  top: 245px;
 }
 
 .intro__subtitle {
   position: absolute;
-  top: 460px;
-  left: 150px;
+  top: 407px;
 }
 
 .subtitle__highlight {
@@ -22,14 +20,14 @@
 
 .desc__wrapper {
   position: absolute;
-  top: 736px;
-  left: 801px;
-  width: 430px;
+  top: 514px;
+  left: 772px;
+  width: 466px;
 }
 
 .description {
   font-size: 35px;
-  line-height: 35px;
+  line-height: 40px;
   color: #fff;
 }
 
