@@ -17,7 +17,6 @@
   </head>
   <body>
     <header>
-      <div class="header__image"></div>
       <div class="container">
         <div class="header-wrapper">
           <a class="logo__link" href="https://github.com/slowrunr">mungalov.dev</a>
@@ -77,18 +76,16 @@
     </header>
     <main>
       <section class="about">
-        <div class="container anchor">
-          <div class="desc__wrapper">
-            <p class="description">
-              Я разрабатываю имиджевые сайты для малого и среднего бизнеса, которые
-              повышают престиж компании и позволяют
-              <span class="description__highlight">выделиться</span>  на фоне конкурентов
-            </p>
-          </div>
-          <div class="intro__wrapper">
-            <h1 class="intro">Привет!<br> я Семён -</h1>
-            <h1 class="intro">Frontend разработчик и дизайнер сайтов</h1>
-          </div>
+        <div class="container">
+          <h1 class="intro__title">Привет!<br> Я Семён -</h1>
+          <h1 class="intro__subtitle"> Я - начинающий <span class="subtitle__highlight"> Frontend- </span>разработчик</h1>
+        </div>
+        <div class="desc__wrapper">
+          <p class="description">
+            Я учусь разрабатывать имиджевые сайты для малого и среднего бизнеса, которые
+            помогают развитию компании и позволяют
+            <span class="description__highlight"> выделиться </span> на фоне конкурентов
+          </p>
         </div>
       </section>
       <section class="projects" id="projects">
@@ -111,7 +108,7 @@
                 src="images/project-nothingear.jpg"
                 alt="Изображение главной страницы сайта интернет-магазина беспроводных наушников марки 'Nothing ear'" 
               />
-              <a class="project__link" href="/">презентация продукта</a>
+              <a class="project__link" href="./404.html">презентация продукта</a>
               <p class="project__title">Nothing</p>
               <h3 class="project__subtitle">вёрстка, настройка</h3>
             </li>
@@ -121,12 +118,12 @@
                 src="images/project-toptrip.jpg" 
                 alt="Изображение главной страницы сайта про путешествия 'TOPTRIP'" 
               />
-              <a class="project__link" href="/">заказ путешествий</a>
+              <a class="project__link" href="./404.html">заказ путешествий</a>
               <p class="project__title">TOPTRIP</p>
               <h3 class="project__subtitle">вёрстка</h3>
             </li>
           </ul>
-          <a class="all__projects" href="#">Смотреть все проекты</a>
+          <a class="all__projects" href="https://github.com/slowrunr">Смотреть все проекты</a>
         </div>
       </section>
       <section class="competencies" id="competencies">
@@ -136,10 +133,10 @@
             <li class="competency">
               <h3 class="competency__title">HTML и CSS</h3>
               <p class="competency__desc">
-                это основа фронтенд разработки. Умение создавать и правильно
+                Умение создавать и правильно
                 структурировать HTML-документы, а также применять стили к этим
                 документам на CSS, является обязательным навыком для каждого
-                фронтенд разработчика.
+                frontend-разработчика. 
               </p>
             </li>
             <li class="competency">
@@ -147,7 +144,7 @@
               <p class="competency__desc">
                 это язык программирования, который используется для создания
                 динамического и интерактивного пользовательского интерфейса.
-                Хороший фронтенд разработчик должен быть знаком с основами
+                Хороший frontend-разработчик должен быть знаком с основами
                 JavaScript, включая работу с DOM-деревом, асинхронными запросами и
                 манипуляцией данными на стороне клиента.
               </p>
@@ -174,7 +171,7 @@
       </section>
       <section class="services" id="services">
         <div class="container">
-          <h2 class="services__title">Помогаю реализовать широкий спектр задач</h2>
+          <h2 class="services__title">Я умею реализовать широкий спектр задач</h2>
           <ul class="services__list">
             <li class="service__item">
               <div class="service__image"></div> 
@@ -205,7 +202,7 @@
           <div class="contacts__wrapper">
             <div class="contacts__box">
               <p class="form__instruction">Для связи со мной заполните простую форму</p>
-              <form class="order__form">
+              <form id="feedback__link" class="order__form">
                 <input
                   class="input" 
                   type="text"

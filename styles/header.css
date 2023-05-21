@@ -1,19 +1,10 @@
-.body_fixed {
-  overflow: hidden;
-}
-
+/*секция навигации по странице с полноэкранным фоновым изображением*/
 header {
-  margin-bottom: 295px;
-  height: 23px;
-}
-
-.header__image {
+  display: block;
+  margin-bottom: 150px;
   position: relative;
-  z-index: -10;
-  top: 0;
-  left: 0;
   background-image: url(../images/promo_photo.jpg);
-  height: 104vh;
+  height: 960px;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;

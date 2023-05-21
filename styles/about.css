@@ -1,50 +1,39 @@
-.about {
-  margin-bottom: 256px;
+.intro__title,
+.intro__subtitle {
+  font-size: 80px;
+  line-height: 75px;
 }
 
-.anchor {
-  position: relative;
-  height: 342px;
+.intro__title {
+  position: absolute;
+  top: 200px;
+  left: 460px;
+}
+
+.intro__subtitle {
+  position: absolute;
+  top: 460px;
+  left: 150px;
+}
+
+.subtitle__highlight {
+  color: #fa9931;
 }
 
 .desc__wrapper {
   position: absolute;
-  top: 260px;
-  left: 354px;
+  top: 736px;
+  left: 801px;
   width: 430px;
 }
 
 .description {
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 35px;
+  line-height: 35px;
   color: #fff;
 }
 
 .description__highlight {
   font-size: 38px;
   color: #fa9931;
-}
-
-.intro__wrapper {
-  position: absolute;
-}
-
-.intro {
-  font-size: 80px;
-  line-height: 75px;
-  color: #fa9931;
-}
-
-.intro:first-child {
-  position: absolute;
-  top: -152px;
-  left: 153px;
-  width: 412px;
-}
-
-.intro:last-child {
-  position: absolute;
-  top: 48px;
-  left: 240px;
-  width: 914px;
 }
