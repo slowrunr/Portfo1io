@@ -6,12 +6,14 @@
 
 .intro__title {
   position: absolute;
-  top: 245px;
+  top: 315px;
+  left: 254px;
 }
 
 .intro__subtitle {
   position: absolute;
-  top: 407px;
+  top: 400px;
+  left: 252px;
 }
 
 .subtitle__highlight {
@@ -20,9 +22,9 @@
 
 .desc__wrapper {
   position: absolute;
-  top: 514px;
-  left: 772px;
-  width: 466px;
+  top: 576px;
+  left: 693px;
+  width: 375px;
 }
 
 .description {

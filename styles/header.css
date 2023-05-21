@@ -5,7 +5,6 @@ header {
   position: relative;
   background-image: url(../images/promo_photo.jpg);
   height: 960px;
-  width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -13,7 +12,6 @@ header {
 .header-wrapper {
   position: absolute;
   top: 14px;
-  left: 122px;
   z-index: 10;
   display: flex;
   justify-content: space-between;

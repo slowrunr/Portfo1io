@@ -10,7 +10,7 @@ body,
 }
 
 section {
-  margin-bottom: 146px;
+  margin-bottom: 150px;
 }
 
 .container {
@@ -38,3 +38,26 @@ a {
   cursor: pointer;
   text-align: center;
 }
+
+@media (max-width: 1199px) {
+  .container {
+    padding: 0 15px;
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 45px;
+    line-height: 58px;
+  }
+}
+
+/*@media (max-width: 767px) {
+  section {
+    margin-bottom: 80px;
+  }
+
+  .container {
+    padding-left: 16px;
+    padding-right: 15px;
+  }
+}*/
