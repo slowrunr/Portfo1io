@@ -51,7 +51,7 @@ a {
   }
 }
 
-/*@media (max-width: 767px) {
+@media (max-width: 767px) {
   section {
     margin-bottom: 80px;
   }
@@ -60,4 +60,4 @@ a {
     padding-left: 16px;
     padding-right: 15px;
   }
-}*/
+}

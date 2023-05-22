@@ -4,9 +4,10 @@ header {
   margin-bottom: 150px;
   position: relative;
   background-image: url(../images/promo_photo.jpg);
-  height: 960px;
+  height: 765px;
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: #121212;
 }
 
 .header-wrapper {
@@ -41,4 +42,15 @@ header {
   line-height: 23px;
   height: 23px;
   font-size: 18px;
+}
+
+.nav__link:hover {
+  opacity: 0.8;
+  border-bottom: 3px solid #fa9931;
+}
+
+@media (max-width: 1199px) {
+}
+
+@media (max-width: 767px) {
 }
