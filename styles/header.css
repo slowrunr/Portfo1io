@@ -42,3 +42,9 @@ header {
   height: 23px;
   font-size: 18px;
 }
+
+@media (max-width: 1199px) {
+}
+
+@media (max-width: 767px) {
+}
