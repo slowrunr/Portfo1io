@@ -6,7 +6,7 @@ header {
   display: block;
   margin-bottom: 150px;
   padding-top: 33px;
-  background-image: url(../images/promo_photo.jpg);
+  background: url(../images/promo_photo.jpg);
   height: 765px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -190,7 +190,9 @@ header {
 
 @media (max-width: 767px) {
   header {
+    height: 716px;
     padding-top: 31px;
+    background-image: url(../images/promo_photo-mbl.jpg);
   }
 
   .burger-btn {
