@@ -15,6 +15,7 @@ br {
 
 .intro__subtitle {
   position: absolute;
+  z-index: 1;
   top: 300px;
   left: 21.5%;
 }
@@ -25,6 +26,7 @@ br {
 
 .desc__wrapper {
   position: absolute;
+  z-index: 1;
   top: 394px;
   left: 60%;
   padding-left: 10px;
@@ -40,7 +42,6 @@ br {
 
 .description__highlight {
   font-size: 38.5px;
-  height: 34px;
   color: #fa9931;
 }
 
@@ -67,33 +68,65 @@ br {
   }
 
   .desc__wrapper {
-    top: 419px;
+    top: 425px;
     left: 45%;
   }
 
   .description {
     font-size: 32px;
     line-height: 37px;
+  }
+
+  .description__highlight {
+    font-size: 34px;
   }
 }
 
 @media (max-width: 767px) {
+  .intro__title,
+  .intro__subtitle {
+    font-size: 40px;
+    line-height: 47px;
+  }
+
   .intro__title {
-    top: 150px;
+    top: 100px;
+    left: 10%;
   }
 
   .intro__subtitle {
-    top: 277px;
+    top: 202px;
     left: 7.5%;
+    width: 255px;
   }
 
   .desc__wrapper {
-    top: 419px;
-    left: 45%;
+    width: 92%;
+    top: 350px;
+    left: 8%;
+    border-left: 3px solid #fa9931;
   }
 
   .description {
-    font-size: 32px;
-    line-height: 37px;
+    font-size: 27px;
+    line-height: 32px;
+  }
+
+  .description__highlight {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 324px) {
+  .intro__title {
+    top: 200px;
+  }
+
+  .intro__subtitle {
+    top: 290px;
+  }
+
+  .desc__wrapper {
+    top: 440px;
   }
 }
