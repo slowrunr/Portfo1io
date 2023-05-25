@@ -4,7 +4,6 @@
 
 header {
   display: block;
-  margin-bottom: 150px;
   padding-top: 33px;
   background: url(../images/promo_photo.jpg);
   height: 765px;
@@ -83,7 +82,7 @@ header {
   overflow-y: auto;
   display: flex;
   flex-direction: column;
-  z-index: 102;
+  z-index: 10000;
   background-color: #121212;
   opacity: 0.9;
   transition: transform 0.3s linear;
@@ -145,6 +144,11 @@ header {
 }
 
 @media (max-width: 1199px) {
+  header {
+    background: url(../images/promo_photo-tblt.jpg);
+    background-size: cover;
+  }
+
   .nav__links {
     display: none;
   }
@@ -157,7 +161,7 @@ header {
     border: none;
     background: none;
     cursor: pointer;
-    background-color: aliceblue
+    background-color: aliceblue;
   }
 
   .burger-btn::before,
@@ -191,25 +195,30 @@ header {
 @media (max-width: 767px) {
   header {
     height: 716px;
-    padding-top: 31px;
+    padding-top: 23px;
     background-image: url(../images/promo_photo-mbl.jpg);
+    background-size: cover;
+    background-position-x: center;
+  }
+}
+
+@media (max-width: 324px) {
+  .header-wrapper {
+    flex-direction: column;
+    gap: 20px;
   }
 
-  .burger-btn {
-    width: 38px;
-    height: 16px;
+  .logo__link {
+    margin-left: -55px;
   }
 
-  .burger-btn::before,
-  .burger-btn::after {
-    height: 1.7px;
+  .burger-btn,
+  .burger-btn::after,
+  .burger-btn::before {
+    display: none;
   }
 
-  .burger-btn::after {
-    width: 24px;
+  .nav__links {
+    display: block;
   }
-
-  .burger-btn_open {
-    width: 20px;
-  }
-}*/
+}
