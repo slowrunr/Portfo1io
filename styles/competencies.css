@@ -2,6 +2,18 @@
   margin-bottom: 139px;
 }
 
+.competency__title {
+  margin-bottom: 15px;
+  font-size: 35px;
+  line-height: 46px;
+  color: #fa9931;
+}
+
+.competency__desc {
+  font-size: 22px;
+  line-height: 29px;
+}
+
 .competencies__list {
   display: flex;
   flex-wrap: wrap;
@@ -10,12 +22,15 @@
 
 .competency {
   position: relative;
-  margin-bottom: 99px;
-  width: calc(50% - 7px);
+  width: calc(50% - 23px);
 }
 
 .competency:first-child {
-  margin-bottom: 166px;
+  margin-bottom: 136px;
+}
+
+.competency:nth-last-child(3) {
+  margin-bottom: 99px;
 }
 
 .competency:before {
@@ -54,18 +69,86 @@
   margin-bottom: 0;
 }
 
-.competencies__list li:nth-last-child(3) h3 {
-  margin-bottom: 60px;
+.competencies__list li:nth-last-child(2) h3 {
+  margin-bottom: 54px;
 }
 
-.competency__title {
-  margin-bottom: 15px;
-  font-size: 35px;
-  line-height: 46px;
-  color: #fa9931;
+.competencies__list li:last-child h3 {
+  margin-bottom: 16px;
 }
 
-.competency__desc {
-  font-size: 22px;
-  line-height: 29px;
+@media (max-width: 1199px) {
+  .competencies h2 {
+    margin-bottom: 106px;
+  }
+
+  .competency__title {
+    margin-bottom: 13px;
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .competency__desc {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  .competency {
+    width: calc(50% - 18px);
+  }
+
+  .competency:first-child {
+    margin-bottom: 113px;
+  }
+
+  .competency:nth-last-child(3) {
+    margin-bottom: 84px;
+  }
+
+  .competencies__list li:nth-last-child(2) h3 {
+    margin-bottom: 46px;
+  }
+
+  .competency:before {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+  }
+
+  .competency:first-child:before {
+    background-size: 19px 18px;
+  }
+
+  .competency:last-child:before {
+    background-size: 20px 22px;
+  }
+
+  .competency:nth-last-child(2):before {
+    background-size: 13px 21px;
+  }
+
+  .competency:nth-last-child(3):before {
+    background-size: 18px 19px;
+  }
+}
+
+@media (max-width: 767px) {
+  .competency__title {
+    margin-bottom: 15px;
+  }
+
+  .competency {
+    width: 100%;
+  }
+
+  .competency:first-child {
+    margin-bottom: 106px;
+  }
+  .competency:nth-last-child(2),
+  .competency:nth-last-child(3) {
+    margin-bottom: 108px;
+  }
+  .competency:last-child {
+    margin-bottom: 0;
+  }
 }
