@@ -32,7 +32,7 @@
 }
 
 .send__order {
-  max-width: 450px;
+  width: 450px;
   font-size: 22px;
   line-height: 70px;
   background: #fa9931;
@@ -52,4 +52,77 @@
   background-position: -110% 50%;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media (max-width: 1199px) {
+  .contacts {
+    margin-bottom: 7px;
+    height: 484px;
+  }
+
+  .fw_container-rounded {
+    border-radius: 20px;
+  }
+
+  .contacts__wrapper {
+    gap: 156px;
+  }
+
+  .contacts__box {
+    padding: 50px 0 86px 52px;
+  }
+
+  .form__instruction {
+    margin-bottom: 40px;
+    width: 373px;
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .send__order {
+    width: 305px;
+    font-size: 16px;
+    line-height: 47px;
+  }
+
+  .contacts__back-image {
+    border-radius: 20px 0;
+    background-position: 0 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .contacts {
+    margin-bottom: 0;
+    height: 428px;
+  }
+
+  .contacts__wrapper {
+    padding: 50px 10px;
+    height: 100%;
+    display: block;
+  }
+
+  .contacts__box {
+    width: 100%;
+    padding: 0;
+  }
+
+  .form__instruction {
+    margin-bottom: 40px;
+    width: 100%;
+    font-size: 35px;
+    line-height: 37px;
+  }
+
+  .send__order {
+    width: 100%;
+    font-size: 15px;
+    line-height: 43px;
+    border-radius: 6px;
+  }
+
+  .contacts__back-image {
+    display: none;
+  }
 }

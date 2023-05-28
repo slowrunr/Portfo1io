@@ -24,3 +24,38 @@
 .input:last-child {
   margin-bottom: 60px;
 }
+
+@media (max-width: 1199px) {
+  .input {
+    margin-bottom: 17px;
+    padding: 10px 24px;
+    font-size: 16px;
+    line-height: 21px;
+    border-radius: 675px;
+  }
+
+  .input::placeholder {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .input:last-child {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px 21px;
+    font-size: 15px;
+    line-height: 20px;
+    border-radius: 622px;
+  }
+
+  .input::placeholder {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
