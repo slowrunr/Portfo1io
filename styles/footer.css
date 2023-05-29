@@ -1,10 +1,10 @@
 footer {
+  height: 273px;
   background-color: #fff;
   border-radius: 30px;
 }
 
 .footer__content-wrapper {
-  height: 273px;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
@@ -49,4 +49,10 @@ footer {
 
 .footer__link:hover {
   opacity: 0.5;
+}
+
+@media (max-width: 1199px) {
+  footer {
+    height: 184px;
+  }
 }
