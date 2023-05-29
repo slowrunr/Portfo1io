@@ -1,0 +1,88 @@
+.contact__me {
+  margin-bottom: 10px;
+  padding-top: 100px;
+  padding-bottom: 10px;
+  height: 717px;
+  width: 100%;
+  background: #191c19;
+  border-radius: 30px;
+  background-image: url(../images/frontender_at_work.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.form__instruction {
+  margin-bottom: 60px;
+  width: 540px;
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.send__order {
+  width: 450px;
+  font-size: 22px;
+  line-height: 70px;
+  background: #fa9931;
+  border-radius: 10px;
+  color: #000;
+}
+
+.send__order:hover {
+  background: #fff;
+  color: #fa9931;
+}
+
+@media (max-width: 1199px) {
+  .contact__me {
+    margin-bottom: 7px;
+    padding-top: 50px;
+    padding-left: 35px;
+    height: 484px;
+  }
+
+  .form__instruction {
+    margin-bottom: 40px;
+    width: 373px;
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .send__order {
+    width: 305px;
+    font-size: 16px;
+    line-height: 47px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact__me {
+    margin-bottom: 0;
+    padding-left: unset;
+    height: 428px;
+    border-radius: unset;
+    background-image: none;
+  }
+
+  .form__instruction {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    max-width: 310px;
+    font-size: 35px;
+    line-height: 37px;
+    text-align: center;
+  }
+
+  .send__order {
+    width: 100%;
+    font-size: 15px;
+    line-height: 43px;
+    border-radius: 6px;
+  }
+}
+
+@media (max-width: 326px) {
+  .form__instruction {
+    width: 100%;
+  }
+}
