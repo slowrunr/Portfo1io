@@ -1,15 +1,15 @@
 .contact__me {
   margin-bottom: 10px;
+  padding-top: 100px;
+  padding-bottom: 10px;
   height: 717px;
+  width: 100%;
   background: #191c19;
   border-radius: 30px;
-}
-
-.contacts__wrapper {
-  position: relative;
-  padding: 100px 0 101px;
-  width: 50%;
-  height: 100%;
+  background-image: url(../images/frontender_at_work.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .form__instruction {
@@ -33,35 +33,12 @@
   color: #fa9931;
 }
 
-.contacts__back-image {
-  position: absolute;
-  top: 0;
-  right: 0;
-  content: "";
-  margin-left: 157px;
-  width: 50%;
-  height: 717px;
-  background-image: url(../images/frontender_at_work.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
 @media (max-width: 1199px) {
-  .contacts {
+  .contact__me {
     margin-bottom: 7px;
+    padding-top: 50px;
+    padding-left: 35px;
     height: 484px;
-  }
-
-  .fw_container-rounded {
-    border-radius: 20px;
-  }
-
-  .contacts__wrapper {
-    gap: 156px;
-  }
-
-  .contacts__box {
-    padding: 50px 0 86px 52px;
   }
 
   .form__instruction {
@@ -76,35 +53,24 @@
     font-size: 16px;
     line-height: 47px;
   }
-
-  .contacts__back-image {
-    border-radius: 20px 0;
-    background-position: 0 50%;
-  }
 }
 
 @media (max-width: 767px) {
-  .contacts {
+  .contact__me {
     margin-bottom: 0;
+    padding-left: unset;
     height: 428px;
-  }
-
-  .contacts__wrapper {
-    padding: 50px 10px;
-    height: 100%;
-    display: block;
-  }
-
-  .contacts__box {
-    width: 100%;
-    padding: 0;
+    border-radius: unset;
+    background-image: none;
   }
 
   .form__instruction {
+    margin: 0 auto;
     margin-bottom: 40px;
-    width: 100%;
+    max-width: 310px;
     font-size: 35px;
     line-height: 37px;
+    text-align: center;
   }
 
   .send__order {
@@ -113,8 +79,10 @@
     line-height: 43px;
     border-radius: 6px;
   }
+}
 
-  .contacts__back-image {
-    display: none;
+@media (max-width: 326px) {
+  .form__instruction {
+    width: 100%;
   }
 }

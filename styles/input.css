@@ -27,6 +27,7 @@
 
 @media (max-width: 1199px) {
   .input {
+    width: 383px;
     margin-bottom: 17px;
     padding: 10px 24px;
     font-size: 16px;
