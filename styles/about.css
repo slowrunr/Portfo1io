@@ -1,3 +1,7 @@
+.about {
+  display: block;
+}
+
 .intro__title,
 .intro__subtitle {
   font-size: 70px;
@@ -24,7 +28,7 @@ br {
   color: #fa9931;
 }
 
-.desc__wrapper {
+.description__wrapper {
   position: absolute;
   z-index: 1;
   top: 394px;
@@ -67,7 +71,7 @@ br {
     left: 7.5%;
   }
 
-  .desc__wrapper {
+  .description__wrapper {
     top: 425px;
     left: 45%;
   }
@@ -90,19 +94,19 @@ br {
   }
 
   .intro__title {
-    top: 100px;
-    left: 10%;
+    top: 120px;
+    left: 5%;
   }
 
   .intro__subtitle {
-    top: 202px;
-    left: 7.5%;
+    top: 214px;
+    left: 6%;
     width: 255px;
   }
 
-  .desc__wrapper {
+  .description__wrapper {
     width: 92%;
-    top: 350px;
+    top: 376px;
     left: 8%;
     border-left: 3px solid #fa9931;
   }
@@ -126,7 +130,7 @@ br {
     top: 290px;
   }
 
-  .desc__wrapper {
+  .description__wrapper {
     top: 440px;
   }
 }

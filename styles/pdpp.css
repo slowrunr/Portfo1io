@@ -1,3 +1,5 @@
+/*pdpp - Personal data processing policy (политика обработки персональных данных)*/
+
 .pdpp {
   background-color: #121212;
 }
@@ -19,7 +21,7 @@
 .back__btn {
   width: 100%;
   padding: 56px 85px;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 39px;
   background: #fa9931;
   border-radius: 10px;
@@ -28,4 +30,17 @@
 .back__btn:hover {
   background: #fff;
   color: #fa9931;
+}
+
+@media (max-width: 767px) {
+  .pdpp__title {
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  .pdpp__text {
+    width: 85%;
+    font-size: 16px;
+    line-height: 25px;
+  }
 }

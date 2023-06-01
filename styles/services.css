@@ -15,19 +15,19 @@
 }
 
 /*this code helps to work with implemented divs inside ul-list*/
-.services__list li:first-child .service__image {
+.services-list li:first-child .service__image {
   background-image: url(../images/website-development.jpg);
 }
 
-.services__list li:nth-last-child(2) .service__image {
+.services-list li:nth-last-child(2) .service__image {
   background-image: url(../images/website-layout.jpg);
 }
 
-.services__list li:last-child .service__image {
+.services-list li:last-child .service__image {
   background-image: url(../images/mob-interface-development.jpg);
 }
 
-.service__desc-wrapper {
+.service__description-wrapper {
   margin-bottom: 40px;
   padding: 40px 45px 64px 40px;
   display: flex;
@@ -45,7 +45,7 @@
   color: #fa9931;
 }
 
-.service__desc {
+.service__description {
   padding-top: 5px;
   width: 525px;
   font-size: 22px;
@@ -67,19 +67,19 @@
     border-radius: 24px;
   }
 
-  .services__list li:first-child .service__image {
+  .services-list li:first-child .service__image {
     background-image: url(../images/website-development-tblt.jpg);
   }
 
-  .services__list li:nth-last-child(2) .service__image {
+  .services-list li:nth-last-child(2) .service__image {
     background-image: url(../images/website-layout-tblt.jpg);
   }
 
-  .services__list li:last-child .service__image {
+  .services-list li:last-child .service__image {
     background-image: url(../images/mob-interface-development-tblt.jpg);
   }
 
-  .service__desc-wrapper {
+  .service__description-wrapper {
     margin-bottom: 32px;
     padding: 32px 36px 55px 32px;
     gap: 57px;
@@ -92,7 +92,7 @@
     line-height: 50px;
   }
 
-  .service__desc {
+  .service__description {
     width: 425px;
     font-size: 18px;
     line-height: 23px;
@@ -108,19 +108,19 @@
     height: 225px;
   }
 
-  .services__list li:first-child .service__image {
+  .services-list li:first-child .service__image {
     background-image: url(../images/website-development-mbl.jpg);
   }
 
-  .services__list li:nth-last-child(2) .service__image {
+  .services-list li:nth-last-child(2) .service__image {
     background-image: url(../images/website-layout-mbl.jpg);
   }
 
-  .services__list li:last-child .service__image {
+  .services-list li:last-child .service__image {
     background-image: url(../images/mob-interface-development-mbl.jpg);
   }
 
-  .service__desc-wrapper {
+  .service__description-wrapper {
     margin-bottom: 60px;
     padding: 30px 23px 67px 21px;
     display: block;
@@ -138,7 +138,8 @@
     line-height: 39px;
   }
 
-  .service__desc {
+  .service__description {
+    width: 304px;
     font-size: 18px;
     line-height: 23px;
   }

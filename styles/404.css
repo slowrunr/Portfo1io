@@ -1,3 +1,5 @@
+/*страница проектов на стадии разработки*/
+
 .main__title {
   padding: 80px;
   font-size: 60px;
@@ -9,4 +11,32 @@
   padding: 20px;
   font-size: 22px;
   line-height: 30px;
+}
+
+@media (max-width: 1199px) {
+  .main__title {
+    padding: 60px;
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .main__subtitle {
+    padding: 15px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+
+@media (max-width: 767px) {
+  .main__title {
+    padding: 40px;
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  .main__subtitle {
+    padding: 12px;
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
