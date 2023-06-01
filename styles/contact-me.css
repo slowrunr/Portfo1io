@@ -1,4 +1,4 @@
-.contact__me {
+.contact-me {
   margin-bottom: 10px;
   padding-top: 100px;
   padding-bottom: 10px;
@@ -34,7 +34,7 @@
 }
 
 @media (max-width: 1199px) {
-  .contact__me {
+  .contact-me {
     margin-bottom: 7px;
     padding-top: 50px;
     padding-left: 35px;
@@ -56,7 +56,7 @@
 }
 
 @media (max-width: 767px) {
-  .contact__me {
+  .contact-me {
     margin-bottom: 0;
     padding-left: unset;
     height: 428px;

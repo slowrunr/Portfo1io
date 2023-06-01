@@ -30,6 +30,20 @@ footer {
   color: #000;
 }
 
+.footer__link::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  height: 36px;
+  width: 36px;
+  color: blue;
+}
+
+.footer__link {
+  position: relative;
+  display: block;
+}
+
 .footer__subtitle,
 .policy {
   font-size: 20px;
