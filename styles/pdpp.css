@@ -21,7 +21,7 @@
 .back__btn {
   width: 100%;
   padding: 56px 85px;
-  font-size: 25px;
+  font-size: 45px;
   line-height: 39px;
   background: #fa9931;
   border-radius: 10px;
@@ -31,7 +31,14 @@
   background: #fff;
   color: #fa9931;
 }
-
+@media (max-width: 1199px) {
+  .back__btn {
+    padding: unset;
+    font-size: 35px;
+    line-height: 120px;
+    text-align: center;
+  }
+}
 @media (max-width: 767px) {
   .pdpp__title {
     font-size: 25px;
@@ -42,5 +49,9 @@
     width: 85%;
     font-size: 16px;
     line-height: 25px;
+  }
+
+  .back__btn {
+    line-height: 80px;
   }
 }

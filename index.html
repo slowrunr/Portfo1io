@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Портфолио Семёна Мунгалова - начинающего фронтенд-разработчика</title>
+    <title>Портфолио фронтенд-разработчика Семёна Мунгалова</title>
     <link rel="icon" href="images/favicon.png" type="image/png" />
     <link rel="stylesheet" href="styles/reset.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -22,7 +22,7 @@
           <a class="logo__link" href="https://github.com/slowrunr">mungalov.dev</a>
           <ul class="nav__links">
             <li class="nav__link">
-              <a href="#projects">портфолио</a>
+              <a href="#portfolio">портфолио</a>
             </li>
             <li class="nav__link">
               <a href="#competencies">компетенции</a>
@@ -73,7 +73,7 @@
       <section class="about">
         <div class="container">
           <p class="intro__title">Привет!<br> Я Семён -</p>
-          <h1 class="intro__subtitle">начинающий <br> <span class="subtitle__highlight">Frontend </span>разработчик</h1>
+          <h1 class="intro__subtitle">начинающий <br> <span class="subtitle__highlight">Frontend- </span>разработчик</h1>
           <div class="description__wrapper">
             <p class="description">
               Я учусь создавать имиджевые сайты для малого и среднего бизнеса, которые
@@ -85,7 +85,7 @@
       </section>
       <section class="projects" id="projects">
         <div class="container">
-          <h2>Самые свежие проекты</h2>
+          <h2 id="portfolio">Самые свежие проекты</h2>
           <ul class="projects-list">
             <li class="project">
               <picture >
@@ -99,9 +99,9 @@
                 alt="Изображение главной страницы сайта дизайн-студии интерьеров 'Метрика'"
                 />
               </picture> 
-              <a class="project__link" href="https://slowrunr.github.io/Me3ka">дизайн интерьера</a>
+              <a class="project__link" target="_blank" href="https://slowrunr.github.io/Me3ka">дизайн интерьера</a>
               <p class="project__title">Метрика</p>
-              <h3 class="project__subtitle">вёрстка, настройка</h3>
+              <p class="project__subtitle">вёрстка, настройка</p>
             </li>
             <li class="project">
               <picture >
@@ -115,9 +115,9 @@
                 alt="Изображение главной страницы сайта интернет-магазина беспроводных наушников марки 'Nothing ear'" 
                 />
               </picture> 
-              <a class="project__link" href="./404.html">презентация продукта</a>
+              <a class="project__link" target="_blank" href="./404.html">презентация продукта</a>
               <p class="project__title">Nothing</p>
-              <h3 class="project__subtitle">вёрстка, настройка</h3>
+              <p class="project__subtitle">вёрстка, настройка</p>
             </li>
             <li class="project">
               <picture >
@@ -131,9 +131,9 @@
                 alt="Изображение главной страницы сайта про путешествия 'TOPTRIP'" 
                 />
               </picture> 
-              <a class="project__link" href="./404.html">заказ путешествий</a>
+              <a class="project__link" target="_blank" href="./404.html">заказ путешествий</a>
               <p class="project__title">TOPTRIP</p>
-              <h3 class="project__subtitle">вёрстка</h3>
+              <p class="project__subtitle">вёрстка</p>
             </li>
           </ul>
           <a class="all-projects" href="https://github.com/slowrunr">Смотреть все проекты</a>
@@ -144,8 +144,8 @@
           <h2>Мои компетенции</h2>
           <ul class="competencies-list">
             <li class="competency">
-              <h3 class="competency__title">HTML и CSS</h3>
-              <p class="competency__desc">
+              <p class="competency__title">HTML и CSS</p>
+              <p class="competency__description">
                 Умение создавать и правильно
                 структурировать HTML-документы, а также применять стили к этим
                 документам на CSS, является обязательным навыком для каждого
@@ -153,7 +153,7 @@
               </p>
             </li>
             <li class="competency">
-              <h3 class="competency__title">JavaScript</h3>
+              <p class="competency__title">JavaScript</p>
               <p class="competency__description">
                 это язык программирования, который используется для создания
                 динамического и интерактивного пользовательского интерфейса.
@@ -163,7 +163,7 @@
               </p>
             </li>
             <li class="competency">
-              <h3 class="competency__title">Работа с библиотеками <br> и фреймворками</h3>
+              <p class="competency__title">Работа с библиотеками <br> и фреймворками</p>
               <p class="competency__description">
                 frontend-разработчики должны быть знакомы с различными
                 библиотеками и фреймворками, такими как React, Angular, Vue и
@@ -173,7 +173,7 @@
               </p>
             </li>
             <li class="competency">
-              <h3 class="competency__title">Разработка для мобильных устройств и адаптивная верстка</h3>
+              <p class="competency__title">Разработка для мобильных устройств и адаптивная верстка</p>
               <p class="competency__description">
                 Разработка сайтов, корректно отображающихся на экранах любого размера: на планшетах, смартфонах, телевизорах и даже проекторах. 
                 Без дополнительных настроек и танцев с бубном.
@@ -184,14 +184,12 @@
       </section>
       <section class="services" id="services">
         <div class="container">
-          <h2 class="services__title">
-            Я помогаю реализовать широкий спектр задач
-          </h2>
+          <h2 class="services__title">Я помогаю реализовать широкий спектр задач</h2>
           <ul class="services-list">
             <li class="service__item">
               <div class="service__image"></div>
               <div class="service__description-wrapper">
-                <h2 class="service__name">Разработка сайта под ключ</h2>
+                <p class="service__name">Разработка сайта под ключ</p>
                 <p class="service__description">
                   Это создание дизайна веб-сайтов для удобства пользователя и
                   решения бизнес-задач.<br />
@@ -203,7 +201,7 @@
             <li>
               <div class="service__image"></div>
               <div class="service__description-wrapper">
-                <h2 class="service__name">Вёрстка сайтов</h2>
+                <p class="service__name">Вёрстка сайтов</p>
                 <p class="service__description">
                   Это процесс создания HTML-документов и применения к ним стилей
                   CSS. Frontend-разработчик может помочь создать привлекательный
@@ -214,7 +212,7 @@
             <li>
               <div class="service__image"></div>
               <div class="service__description-wrapper">
-                <h2 class="service__name">Разработка мобильного интерфейса</h2>
+                <p class="service__name">Разработка мобильного интерфейса</p>
                 <p class="service__description">
                   Это процесс создания интерактивных элементов на странице с
                   помощью JavaScript. Frontend-разработчик может помочь создать

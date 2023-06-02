@@ -10,6 +10,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-color: aliceblue;
+  opacity: 0.9;
 }
 
 .header-wrapper {
@@ -41,11 +42,6 @@ header {
   line-height: 23px;
   height: 23px;
   font-size: 18px;
-}
-
-.nav__link:hover {
-  opacity: 0.8;
-  border-bottom: 3px solid #fa9931;
 }
 
 .burger-btn {
@@ -123,8 +119,8 @@ header {
 .nav__link:hover,
 .burger-nav__link a:hover,
 .burger__contacts-link a:hover {
-  opacity: 0.5;
-  border-bottom: 1px solid #121212;
+  opacity: 0.4;
+  border-bottom: 2px solid #fa9931;
 }
 
 .burger__contacts {
