@@ -12,19 +12,19 @@ br {
   display: none;
 }
 
-.intro__title {
+.intro__subtitle {
   position: absolute;
   top: 230px;
 }
 
-.intro__subtitle {
+.intro__title {
   position: absolute;
   z-index: 1;
   top: 300px;
   left: 21.5%;
 }
 
-.subtitle__highlight {
+.title__highlight {
   color: #fa9931;
 }
 
@@ -62,11 +62,11 @@ br {
     display: block;
   }
 
-  .intro__title {
+  .intro__subtitle {
     top: 150px;
   }
 
-  .intro__subtitle {
+  .intro__title {
     top: 277px;
     left: 7.5%;
   }
@@ -93,12 +93,12 @@ br {
     line-height: 47px;
   }
 
-  .intro__title {
+  .intro__subtitle {
     top: 120px;
     left: 5%;
   }
 
-  .intro__subtitle {
+  .intro__title {
     top: 214px;
     left: 6%;
     width: 255px;
@@ -122,11 +122,11 @@ br {
 }
 
 @media (max-width: 324px) {
-  .intro__title {
+  .intro__subtitle {
     top: 200px;
   }
 
-  .intro__subtitle {
+  .intro__title {
     top: 290px;
   }
 

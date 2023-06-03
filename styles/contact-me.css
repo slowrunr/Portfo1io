@@ -54,6 +54,11 @@
     line-height: 47px;
   }
 }
+@media (max-width: 829px) {
+  .form__instruction {
+    width: 350px;
+  }
+}
 
 @media (max-width: 767px) {
   .contact-me {

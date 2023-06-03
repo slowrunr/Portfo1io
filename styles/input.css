@@ -45,6 +45,12 @@
   }
 }
 
+@media (max-width: 829px) {
+  .input {
+    width: 292px;
+  }
+}
+
 @media (max-width: 767px) {
   .input {
     width: 100%;
