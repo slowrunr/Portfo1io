@@ -23,7 +23,7 @@
   border-radius: 30px;
 }
 
-.project__link {
+.project__title {
   position: absolute;
   top: 43px;
   left: 45px;
@@ -31,20 +31,29 @@
   font-size: 20px;
   line-height: 27px;
   background: #fa9931;
-  border-radius: 100px;
+  border-radius: 80px;
   color: #000;
+  border-color: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.9) 100%
+  );
 }
 
 .projects__list li:first-child a {
   top: 44px;
 }
 
-.project__title {
+.project__link {
   position: absolute;
   left: 50px;
   bottom: 103px;
   font-size: 35px;
   line-height: 46px;
+}
+
+.project__link:hover {
+  color: #fa9931;
 }
 
 .project__subtitle {
@@ -83,7 +92,7 @@
     border-radius: 24px;
   }
 
-  .project__link {
+  .project__title {
     top: 40px;
     left: 40px;
     font-size: 16px;
@@ -95,7 +104,7 @@
     top: 21px;
   }
 
-  .project__title {
+  .project__link {
     left: 40px;
     bottom: 77px;
     font-size: 28px;
@@ -129,7 +138,7 @@
     margin-bottom: 60px;
   }
 
-  .project__link {
+  .project__title {
     top: 30;
     left: 33px;
     font-size: 13px;
@@ -140,7 +149,7 @@
     top: 30px;
   }
 
-  .project__title {
+  .project__link {
     left: 35px;
     bottom: 76px;
   }
