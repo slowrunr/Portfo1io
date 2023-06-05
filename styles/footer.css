@@ -25,12 +25,11 @@ footer {
 
 .footer__title,
 .footer__link {
-  font-size: 22px;
-  line-height: 30px;
   color: #000;
 }
 
-/*.footer-links li:first-child .footer__link:before,
+/*next stage for refactoring----
+.footer-links li:first-child .footer__link:before,
 .footer-links li:nth-last-child(2) .footer__link:before,
 .footer-links li:last-child .footer__link:before {
   content: "";
@@ -103,12 +102,6 @@ footer {
   .footer__link {
     font-size: 16px;
     line-height: 22px;
-  }
-
-  .footer__subtitle,
-  .policy {
-    font-size: 20px;
-    line-height: 27px;
   }
 }
 
