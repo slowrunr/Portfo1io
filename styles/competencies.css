@@ -1,11 +1,9 @@
-.competencies h2 {
+.competencies__title {
   margin-bottom: 139px;
 }
 
-.competency__title {
+.competency__name {
   margin-bottom: 15px;
-  font-size: 35px;
-  line-height: 46px;
   color: #fa9931;
 }
 
@@ -78,19 +76,12 @@
 }
 
 @media (max-width: 1199px) {
-  .competencies h2 {
+  .competencies__title {
     margin-bottom: 106px;
   }
 
-  .competency__title {
+  .competency__name {
     margin-bottom: 13px;
-    font-size: 28px;
-    line-height: 36px;
-  }
-
-  .competency__description {
-    font-size: 18px;
-    line-height: 23px;
   }
 
   .competency {
@@ -133,7 +124,7 @@
 }
 
 @media (max-width: 767px) {
-  .competency__title {
+  .competency__name {
     margin-bottom: 15px;
   }
 

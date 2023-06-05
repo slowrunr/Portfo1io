@@ -1,10 +1,10 @@
-.projects-list {
-  margin-bottom: 70px;
-}
-
 .projects h2 {
   margin-left: -2px;
   margin-bottom: 40px;
+}
+
+.projects-list {
+  margin-bottom: 70px;
 }
 
 .project {

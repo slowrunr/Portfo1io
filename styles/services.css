@@ -1,8 +1,6 @@
 .services__title {
   margin-bottom: 80px;
   width: 420px;
-  font-size: 35px;
-  line-height: 46px;
 }
 
 .service__image {
@@ -40,7 +38,6 @@
 
 .service__name {
   width: 470px;
-  font-size: 55px;
   line-height: 61px;
   color: #fa9931;
 }
@@ -48,16 +45,11 @@
 .service__description {
   padding-top: 5px;
   width: 525px;
-  font-size: 22px;
-  line-height: 29px;
-  color: #fff;
 }
 
 @media (max-width: 1199px) {
   .services__title {
     margin-bottom: 60px;
-    font-size: 28px;
-    line-height: 37px;
   }
 
   .service__image {
@@ -94,8 +86,6 @@
 
   .service__description {
     width: 425px;
-    font-size: 18px;
-    line-height: 23px;
   }
 }
 
@@ -140,7 +130,5 @@
 
   .service__description {
     width: 304px;
-    font-size: 18px;
-    line-height: 23px;
   }
 }

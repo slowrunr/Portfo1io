@@ -32,6 +32,17 @@ h2 {
   line-height: 72px;
 }
 
+h3 {
+  font-size: 35px;
+  line-height: 46px;
+}
+
+p,
+a {
+  font-size: 22px;
+  line-height: 29px;
+}
+
 a {
   display: block;
   text-decoration: none;
@@ -48,6 +59,17 @@ a {
   h2 {
     font-size: 45px;
     line-height: 58px;
+  }
+
+  h3 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  p,
+  a {
+    font-size: 18px;
+    line-height: 23px;
   }
 }
 
