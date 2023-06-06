@@ -1,11 +1,11 @@
 .about {
-  display: block;
+  position: absolute;
+  top: 0;
 }
 
 .intro__title,
 .intro__subtitle {
-  position: absolute;
-  z-index: 1;
+  position: relative;
   font-size: 70px;
   line-height: 75px;
 }
@@ -28,8 +28,7 @@ br {
 }
 
 .description__wrapper {
-  position: absolute;
-  z-index: 1;
+  position: relative;
   top: 394px;
   left: 60%;
   padding-left: 10px;
