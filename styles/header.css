@@ -3,17 +3,23 @@
 }
 
 header {
-  display: block;
+  margin-bottom: 150px;
   padding-top: 33px;
-  background: url(../images/promo_photo.jpg);
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.3) 100%
+    ),
+    url(../images/promo_photo.jpg);
   height: 765px;
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   background-color: aliceblue;
-  opacity: 0.9;
 }
 
-.header-wrapper {
+.header__menu {
+  height: 55px;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -114,7 +120,6 @@ header {
   height: 32px;
 }
 
-.nav__link:hover,
 .burger-nav__link a:hover,
 .burger__contacts-link a:hover {
   border-bottom: 2px solid #fa9931;
@@ -186,6 +191,7 @@ header {
 @media (max-width: 767px) {
   header {
     height: 716px;
+    margin-bottom: 100px;
     padding-top: 23px;
     background-image: url(../images/promo_photo-mbl.jpg);
     background-size: cover;
@@ -194,7 +200,7 @@ header {
 }
 
 @media (max-width: 324px) {
-  .header-wrapper {
+  .header__menu {
     flex-direction: column;
     gap: 20px;
   }
