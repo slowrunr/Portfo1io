@@ -120,9 +120,10 @@ header {
   height: 32px;
 }
 
-.burger-nav__link a:hover,
+.burger-nav__link:hover,
 .burger__contacts-link a:hover {
   border-bottom: 2px solid #fa9931;
+  opacity: 0.7;
 }
 
 .burger__contacts {
