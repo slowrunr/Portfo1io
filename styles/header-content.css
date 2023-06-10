@@ -1,13 +1,16 @@
-.intro {
-  position: relative;
-  width: fit-content;
-  font-size: 70px;
-  line-height: 75px;
+.intro,
+.intro__title {
+  font-size: 65px;
+  line-height: 70px;
 }
 
 .intro {
-  top: 40px;
-  left: 16%;
+  margin-bottom: 50px;
+  padding-left: 20%;
+}
+
+.intro__title {
+  margin-bottom: 35px;
 }
 
 .title__highlight {
@@ -15,71 +18,46 @@
 }
 
 .description__wrapper {
-  position: relative;
-  width: 499px;
   padding-left: 10px;
-  top: 45px;
-  left: 21%;
-  border-left: 5px solid #fa9931;
+  border-left: 5px outset #fa9931;
 }
 
 .description {
-  font-size: 35px;
-  line-height: 40px;
+  font-size: 36px;
+  line-height: 52px;
 }
 
 .description__highlight {
-  font-size: 36px;
+  display: inline;
+  font-size: 38px;
+  line-height: 52px;
   color: #fa9931;
+  cursor: pointer;
 }
 
 @media (max-width: 1199px) {
-  .intro {
+  .intro,
+  .intro__title {
     font-size: 60px;
     line-height: 70px;
   }
-  .description__wrapper {
-    left: 20.5%;
-  }
-}
 
-@media (max-width: 1047px) {
-  .intro {
-    top: 25px;
-    left: 4%;
-  }
-
-  .description {
-    font-size: 32px;
-    line-height: 37px;
-  }
-
-  .description__highlight {
-    font-size: 34px;
+  .intro__title {
+    text-align: center;
   }
 }
 
 @media (max-width: 767px) {
-  .intro {
+  .intro,
+  .intro__title {
+    margin-bottom: 20px;
     font-size: 40px;
     line-height: 47px;
   }
 
-  .intro {
-    top: 60px;
-  }
-
-  br {
-    display: none;
-  }
-
   .description__wrapper {
     padding-left: 5px;
-    width: 80%;
-    max-height: fit-content;
-    top: 107px;
-    left: 8%;
-    border-left: 3px solid #fa9931;
+    border-left: 3px outset #fa9931;
   }
 
   .description {
@@ -89,30 +67,12 @@
 
   .description__highlight {
     font-size: 30px;
+    line-height: 32px;
   }
 }
 
-@media (max-width: 479px) {
+@media (max-width: 631px) {
   .intro {
-    left: 1%;
-  }
-
-  .description__wrapper {
-    top: 65px;
-    left: 3%;
-  }
-
-  br {
-    display: none;
-  }
-}
-
-@media (max-width: 324px) {
-  .intro {
-    top: 290px;
-  }
-
-  .description__wrapper {
-    top: 440px;
+    padding-left: 4%;
   }
 }

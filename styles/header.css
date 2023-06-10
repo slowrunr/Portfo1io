@@ -5,12 +5,7 @@
 header {
   margin-bottom: 150px;
   padding-top: 33px;
-  /*background: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.3) 0%,
-      rgba(0, 0, 0, 0.3) 100%
-    ),
-    url(../images/promo_photo.jpg);*/
+  background: url(../images/promo_photo.jpg);
   height: 765px;
   background-size: cover;
   background-position: center;
@@ -19,6 +14,7 @@ header {
 }
 
 .header__menu {
+  margin-bottom: 52px;
   height: 55px;
   position: relative;
   display: flex;
@@ -212,6 +208,9 @@ header {
     background-size: cover;
     background-position-x: center;
   }
+
+  .header__menu {
+    margin-bottom: 95px;
 }
 
 @media (max-width: 324px) {
