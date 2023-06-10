@@ -29,7 +29,7 @@
 }
 
 .description__highlight {
-  font-size: 38.5px;
+  font-size: 36px;
   color: #fa9931;
 }
 
@@ -67,6 +67,10 @@
 
   .intro {
     top: 60px;
+  }
+
+  br {
+    display: none;
   }
 
   .description__wrapper {
