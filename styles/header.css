@@ -211,6 +211,7 @@ header {
 
   .header__menu {
     margin-bottom: 95px;
+  }
 }
 
 @media (max-width: 324px) {
